@@ -13,8 +13,8 @@ __pycache__/
 */migrations/__pycache__/
 */migrations/*.pyc
 
-# Django migrations
-**/migrations/
+# Django migrations (faqat fayllarni ignor qilish, lekin katalog qoladi)
+*/migrations/*
 !**/migrations/__init__.py
 
 # SQLite baza fayli (agar PostgreSQL/MySQL ishlatayotgan bo‘lsangiz)
